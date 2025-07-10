@@ -9,3 +9,9 @@ Key Features
 -   Adaptive Retraining: Triggers model retraining only when significant, persistent drift is detected to maintain performance.
 -   Dynamic Window Sizing: Adjusts the data processing window size based on the type of drift detected to balance stability and responsiveness.
 -   Reproducible Experiments: Includes scripts to inject controlled drifts and reproduce the results presented in the paper.
+
+This repository consists of the following scripts:
+
+train_vae.py                 --> Script to train the initial VAE model.
+stats_drift_inject.py        --> Script to inject controlled drifts into the dataset.
+adaptive_concept_drift.py    --> Main script to run the adaptive drift detection 
