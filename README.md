@@ -12,6 +12,6 @@ Key Features
 
 This repository consists of the following scripts:
 
-train_vae.py                 --> Script to train the initial VAE model.
-stats_drift_inject.py        --> Script to inject controlled drifts into the dataset.
-adaptive_concept_drift.py    --> Main script to run the adaptive drift detection 
+- train_vae.py                 --> Script to train the initial VAE model.
+- stats_drift_inject.py        --> Script to inject controlled drifts into the dataset.
+- adaptive_concept_drift.py    --> Main script to run the adaptive drift detection 
